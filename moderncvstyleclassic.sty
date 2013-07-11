@@ -285,7 +285,8 @@
 
 \renewcommand*{\makeletterclosing}{
   \@closing\\[3em]%
-  {\bfseries \@firstname~\@lastname}%
+  {\bfseries \@firstname~\@lastname}\\
+  \includegraphics[scale=0.1]{signature}
   \ifthenelse{\isundefined{\@enclosure}}{}{%
     \\%
     \vfill%
